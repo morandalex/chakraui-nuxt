@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <div>
-      <h1>Profile page </h1>
-      <p><NLink to="/" class="button--grey">Back home</NLink></p>
+      <h1>Il mio profilo </h1>
+      <p><NuxtLink to="/" class="button--grey"><CButton background='grey' color='white' variant= 'solid '>Back home </CButton> </NuxtLink></p>
     </div>
   </div>
 </template>

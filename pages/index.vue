@@ -54,15 +54,17 @@
           justify-content="center"
           align="center"
         >
-          <CButton h="200px" variant="solid">
-            <CStack align="center" direction="column">
-              <CImage
-                w="100px"
-                src="https://app.fauna.life//img/icons/add_pet.png"
-              ></CImage>
-              <NuxtLink to="/addnew">Aggiungi Nuovo</NuxtLink>
-            </CStack>
-          </CButton>
+          <NuxtLink to="/addnew">
+            <CButton h="200px" variant="solid">
+              <CStack align="center" direction="column">
+                <CImage
+                  w="100px"
+                  src="https://app.fauna.life//img/icons/add_pet.png"
+                ></CImage>
+                <CText> Aggiungi Nuovo </CText>
+              </CStack>
+            </CButton>
+          </NuxtLink>
         </CBox>
       </CFlex>
     </CBox>
