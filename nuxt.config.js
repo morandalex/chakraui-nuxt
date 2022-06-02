@@ -19,8 +19,21 @@ export default {
     "@chakra-ui/nuxt",
     "./codesandbox"
   ],
-
-  build: {
+  components: {
+    dirs: [
+      '~/components',]
+    },
+ /* build: {
     extend(config, ctx) {}
+  },*/
+  build: {
+    loaders: {
+      sass: {
+        implementation: require('sass'),
+      },
+      scss: {
+        implementation: require('sass'),
+      },
+    },
   }
 };

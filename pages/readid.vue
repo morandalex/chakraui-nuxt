@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <h1>About page </h1>
+      <h1>Read ID page </h1>
       <p><NLink to="/" class="button--grey">Back home</NLink></p>
     </div>
   </div>
